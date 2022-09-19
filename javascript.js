@@ -157,5 +157,6 @@ leftButton[0].addEventListener("click", () => {
 radiosArray.forEach((element) => {
   element.addEventListener("click", () => {
     initializeImageSlider(element.id);
-  });
+    activeImage = element.id;
+    });
 });
